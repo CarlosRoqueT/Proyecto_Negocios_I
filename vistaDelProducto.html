@@ -4,7 +4,8 @@
       
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.2.2/quartz/bootstrap.min.css" integrity="sha512-GlPFmIhfvCl79w3jNnFX4LG5pP/bRPOyHDVjUXs3aWOrMC0HNHRdH5RrplrQZQDshU+9ibUHsE5Mkznt3ClPpQ==" 
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <script src="https://kit.fontawesome.com/3aac1a55bb.js" crossorigin="anonymous"></script>	  
+        <script src="https://kit.fontawesome.com/3aac1a55bb.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>	  
 
 
     <body>
@@ -15,7 +16,7 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse px-3" id="navbarColor01"> 
-                <ul class="navbar-nav me-auto">
+                <ul class="navbar-nav fs-5 me-auto">
                   <li class="nav-item">
                     <a class="nav-link active" href="#">Inicio
                       <span class="visually-hidden">(current)</span>
@@ -54,7 +55,7 @@
           <br>
           <div class="container-fluid">
             <div class="row" style="display: flex">
-                <div class="col-md-8 pt-3">
+                <div class="col-md-7 pt-3">
                     <h3 class="ps-3 text-center">
                         Vista del producto
                         
@@ -66,13 +67,13 @@
                     </ol>
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                          <div class="carousel-item active ms-5" style="width: 78%;">
-                            <img src="https://masbodegaonline.com.mx/media/catalog/product/i/m/image_7_5655.jpeg?optimize=low&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700" class="d-block rounded-3 w-100" alt="...">
+                          <div class="carousel-item active ms-5" style="width: 76%;">
+                            <img src="https://masbodegaonline.com.mx/media/catalog/product/i/m/image_7_5655.jpeg?optimize=low&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700" class="d-block rounded-3 w-100 h-75" alt="...">
                           </div>
-                          <div class="carousel-item ms-5 " style="width: 78%;">
+                          <div class="carousel-item ms-5 " style="width: 65%;">
                             <img src="https://cdn.shopify.com/s/files/1/0258/6129/2077/products/SON0038A_800x.jpg?v=1614441954" class="d-block rounded-3 w-100" alt="...">
                           </div>
-                          <div class="carousel-item ms-5 " style="width: 78%;">
+                          <div class="carousel-item ms-5 " style="width: 76%;">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYGzT5PBqZfMaoWVVfgV4FLdic3LAIzWSzNw&usqp=CAU" class="d-block rounded-3 w-100" alt="...">
                           </div>
                         </div>
@@ -86,7 +87,7 @@
                         </button>
                       </div>
                 </div>
-                <div class="col-md-3 mt-3 pt-4 ps-4 shadow-lg rounded-5 border border-5">
+                <div class="col-md-4 mt-3 pt-4 ps-4  ms-5 shadow-lg rounded-5 border border-5">
                   <h2>Rockaleta</h2>
                   <p class="text-decoration-line-through mb-0">$98</p>                  
                     <p class="fs-1 mt-0">$72</p>
@@ -94,10 +95,38 @@
                       IVA incluido</p>
                     <a><p class="fs-6 text-success text-decoration-underline">Ver más opciones de pago</p> </a>
                     <P class="fs-5">Deliciosa paleta con capas de caramelo suave con chile y reyeno de chicle</P> 
-                    <div style="display: grid;">
-                      <input  type="button" id="btnSuma" value="+"><p class="border border-dark text-center mb-0 px-3" id="cantidad">1</p><input type="button" id="btnResta" value="-">
+                    <p class="ms-1 mt-5"></a>Unidades <a><i class="fa-solid fa-chevron-down"></i></p>
+                    <div class="input-group mb-1">
+                      <button class="btn btn-primary" type="button"><i class="fa-solid fa-cart-shopping"></i></button>
+                      <input type="text" class="form-control" aria-label="Example text with two button addons" value="1">
                     </div>
-                    
+                    <div class="d-grid gap-2 mx-auto">
+                     <button class="btn btn-dark" type="button">Comprar Ahora</button> 
+                    </div>
+                    <div style="display: flex ;" class="mt-4">
+                     <div class="col-md-2 me-1">
+                      <i class="fa-solid fa-rotate"></i>
+                    </div>
+                    <div class="col-md-10">
+                      <p style="font-size: small;"><a class="text-success"> Devolución gratis.</a> Recuerda que tienes 10 días para regresar tu producto.</p>
+                    </div> 
+                    </div>
+                    <div style="display: flex ;">
+                      <div class="col-md-1">
+                        <i class="fa-solid fa-shield-halved"></i>
+                     </div>
+                     <div class="col-md-10">
+                       <p style="font-size: small;"><a class="text-success">Compra protegida.</a>Tu dinero está seguro, recibe el producto que esperabas o te devolvemos tu dinero</p>
+                     </div> 
+                     </div>
+                     <div style="display: flex ;">
+                      <div class="col-md-1">
+                        <i class="fa-solid fa-trophy"></i>
+                     </div>
+                     <div class="col-md-10">
+                       <p style="font-size: small;"><a class="text-success">Recibe recompensas. </a>En cada compra puedes ganar descuentos o premios.</p>
+                     </div> 
+                     </div>
                   </div>
             </div>
             <div class="row">
