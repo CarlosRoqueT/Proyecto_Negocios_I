@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.2.2/quartz/bootstrap.min.css"
+		integrity="sha512-GlPFmIhfvCl79w3jNnFX4LG5pP/bRPOyHDVjUXs3aWOrMC0HNHRdH5RrplrQZQDshU+9ibUHsE5Mkznt3ClPpQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="https://kit.fontawesome.com/3aac1a55bb.js" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"
+		integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<title>Carrito</title>
+
+
+
+</head>
+
+<body>
+	<!-- inicio encabesado -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-1">
+		<div class="container-fluid">
+
+			<a style="background-color:#fc7ff5;" class="navbar-brand ms-4 rounded-5 border  border-3 p-2" href="#"> <img
+					style="width:140px; height:60px;" class="img-fluid" alt="Bootstrap Image Preview"
+					src="img/candy_shop.png" /></a>
+
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+				aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse px-3" id="navbarColor01">
+				<ul class="navbar-nav fs-5 me-auto">
+					<li class="nav-item">
+						<a class="nav-link active" href="#">Inicio
+							<span class="visually-hidden">(current)</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Ofertas</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Historial</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Ayuda</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+							aria-haspopup="true" aria-expanded="false">Categorias</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Action</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<a class="dropdown-item" href="#">Something else here</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Separated link</a>
+						</div>
+					</li>
+				</ul>
+				<form class="d-flex">
+					<input class="form-control me-sm-1 px-4" type="text" placeholder="Buscar">
+					<button class="btn btn-primary btn-sm px-2" type="submit"><i
+							class="fa-solid fa-magnifying-glass"></i></button>
+				</form>
+				<i class="fa-solid fa-heart ms-2 "></i>
+				<i class="fa-solid fa-cart-shopping m-2"></i>
+				<i class="fa-solid fa-user-astronaut"></i>
+			</div>
+		</div>
+	</nav>
+	<!-- fin  encabesado -->
+
+	<div>
+		<div class="container-fluid">
+
+			<div class="row border border-5">
+				<div class="col-md-6 border border-5">
+					<div class="row">
+						<div class="col-md-12" style="background-color:#ffffff; color: black;">
+							<h3>
+								Direccion
+							</h3>
+							<address>
+								<strong>Jose Lopez Portillo</strong><br /> 795 Folsom Ave, Suite 600<br /> San
+								Francisco, CA
+								94107<br />
+							</address>
+						</div>
+					</div>
+
+					<br>
+
+					<div class="row">
+						<div class="col-md-12" style="background-color:#ffffff; color: black;">
+							<h3>
+								Metodo de Pago
+							</h3><img style=" height:35px; width: auto; position: relative;"
+								alt="Bootstrap Image Preview" src="img/paypal.png" />
+						</div>
+					</div>
+
+					<br>
+
+					<div class="row">
+						<div class="col-md-12" style="background-color:#ffffff; color: black;">
+							<h3>
+								Carlos V
+							</h3>
+							<div class="row">
+								<div class="col-md-6 ">
+									<img style=" height:130px; width: auto; position: relative;"
+										alt="Bootstrap Image Preview" src="img/carlos_v.jpg" />
+
+									<h5 class="text-center">
+										- $35 c/U
+									</h5>
+								</div>
+								<div class="col-md-6">
+									<dl>
+										<dt>
+											Carlos V es El Rey de los Chocolates, favorito de chicos y grandes,
+											disfrútalo solo o con tu familia y amigos.
+										</dt>
+										<dd>
+											- Chocolate en barra
+										</dd>
+										<dd>
+											- Delicioso sabor y aroma
+										</dd>
+										<dd>
+											- Fácil de abrir
+										</dd>
+										<dd>
+											- Mantener en un lugar fresco
+										</dd>
+									</dl>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<br>
+
+				<div class="col-md-6 text-center border border-5">
+					<div class="row">
+						<div class="col-md-12" class="col-md-12" style="background-color:#ffffff; color: black;">
+							<h3>
+								Total
+							</h3>
+							<dl>
+
+								<dd>
+									Costo total del articulo $35
+								</dd>
+								<dd>
+									Descuento $0
+								</dd>
+								<dd>
+									Total de envio $50
+								</dd>
+								<dl>
+									<strong>Total $85</strong>
+
+								</dl>
+							</dl>
+							<p>
+
+								<div id="smart-button-container">
+									<div style="text-align: center;">
+									  <div id="paypal-button-container"></div>
+									</div>
+								  </div>
+								<script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=MXN" data-sdk-integration-source="button-factory"></script>
+								<script>
+								  function initPayPalButton() {
+									paypal.Buttons({
+									  style: {
+										shape: 'rect',
+										color: 'gold',
+										layout: 'vertical',
+										label: 'paypal',
+										
+									  },
+							  
+									  createOrder: function(data, actions) {
+										return actions.order.create({
+										  purchase_units: [{"amount":{"currency_code":"MXN","value":85}}]
+										});
+									  },
+							  
+									  onApprove: function(data, actions) {
+										return actions.order.capture().then(function(orderData) {
+										  
+										  // Full available details
+										  console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+							  
+										  // Show a success message within this page, e.g.
+										  const element = document.getElementById('paypal-button-container');
+										  element.innerHTML = '';
+										  element.innerHTML = '<h3>Gracias por la Compra</h3>';
+							  
+										  // Or go to another URL:  actions.redirect('thank_you.html');
+										  
+										});
+									  },
+							  
+									  onError: function(err) {
+										console.log(err);
+									  }
+									}).render('#paypal-button-container');
+								  }
+								  initPayPalButton();
+								</script>
+
+
+							</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+</body>
+
+<footer class="text-center">
+	<div class="u-clearfix u-sheet u-sheet-1">
+		<p class="u-small-text u-text u-text-variant u-text-1"
+			data-lang-en="​© Copyright 2022 Instituto Tecnológico de Aguascalientes - Todos los Derechos Reservados"> ©
+			Copyright 2022 Prueba Negocios 1</p>
+	</div>
+</footer>
+
+</html>
