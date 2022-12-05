@@ -69,10 +69,53 @@
     <br>
 
     <!--INICIO PRODUCTOS-->
-    <script src="js/mostrar.js"></script>
+
 
     <div class="productos">
-        <div class="row center-xs">
+        <div class="row center-xs justify-content-center align-items-center text-center">
+            <h1>Catalogo de productos</h1>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <form class="d-flex">
+                                    <input class="form-control me-sm-1 px-4" type="text" placeholder="Buscar">
+                                    <button class="btn btn-primary btn-sm px-2" type="submit"><i
+                                            class="fa-solid fa-magnifying-glass"></i></button>
+                                </form>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-6 text-center">
+                                        <p>
+                                            Ordenar por:
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+
+
+                                        <div class="form-floating ">
+                                            <select class="form-select" id="floatingSelect"
+                                                aria-label="Floating label select example">
+                                                <option selected>Mas relevante</option>
+                                                <option value="1">Mayor precio</option>
+                                                <option value="2">Menor precio</option>
+                                                <option value="3">De la A a la Z</option>
+                                                <option value="4">De la Z a la A</option>
+                                            </select>
+                                            <label for="floatingSelect">Seleccione una opcion</label>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="col-md-4 text-center producto">
                 <div class="card" style="margin: 10px;">
                     <h3 class="text-center text-primary text-dark">
@@ -244,7 +287,7 @@
                     <img class="text-center" src="img/pica_pepino.jpg" alt="Imagen de pica fresa"
                         style="height:200px; width: auto; position: relative;margin: auto;">
                     <h5 class="text-center text-dark">
-                        Paletas de caramelo sabor pepino con chile 
+                        Paletas de caramelo sabor pepino con chile
                     </h5>
                     <h4 class="text-left text-dark">
                         $25 c/u
@@ -264,7 +307,7 @@
                     <img class="text-center" src="img/aciduladito.jpg" alt="Imagen de pica fresa"
                         style="height:200px; width: auto; position: relative;margin: auto;">
                     <h5 class="text-center text-dark">
-                        Pequeños caramelos acidos y picositos con sabores variados 
+                        Pequeños caramelos acidos y picositos con sabores variados
                     </h5>
                     <h4 class="text-left text-dark">
                         $26 c/u
@@ -278,28 +321,28 @@
         </div>
 
     </div>
-<div class="row">
-<div class="container-fluid mt-5 p-3">
-    <div class="container mt-5 justify-content-center align-items-center text-center">
-        <h1>Catalogo de productos (JSON)</h1>
-        <button style="display: none;" class="btn" id="boton">JSON</button>
-        <table class="table table-hover table-bordered border-secodary m-0">
-            <thead>
-                <tr class="table table-dark">
-                    <th>Foto</th>
-                    <th>Nombre</th>
-                    <th>Marca</th>
-                    <th>Descripcion</th>
-                    <th>Precio</th>
-                </tr>
-            </thead>
-            <tbody id="res">
+    <div class="row">
+        <div class="container-fluid mt-5 p-3">
+            <div class="container mt-5 justify-content-center align-items-center text-center">
+                <h1>Catalogo de productos (JSON)</h1>
+                <button style="display: none;" class="btn" id="boton">JSON</button>
+                <table class="table table-hover table-bordered border-secodary m-0">
+                    <thead>
+                        <tr class="table table-dark">
+                            <th>Foto</th>
+                            <th>Nombre</th>
+                            <th>Marca</th>
+                            <th>Descripcion</th>
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody id="res">
 
-            </tbody>
-        </table>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
-</div>
-</div>
 
 
 
